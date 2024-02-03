@@ -17,8 +17,10 @@ class _PersonPageState extends State<PersonPage> {
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 25,
+            color: Colors.white,
           ),
         ),
+        backgroundColor: Theme.of(context).primaryColor,
       ),
       body: const Center(
         child: Text(

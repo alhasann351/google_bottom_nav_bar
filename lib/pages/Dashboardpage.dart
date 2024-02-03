@@ -17,8 +17,10 @@ class _DashboardPageState extends State<DashboardPage> {
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 25,
+            color: Colors.white,
           ),
         ),
+        backgroundColor: Theme.of(context).primaryColor,
       ),
       body: const Center(
         child: Text(
