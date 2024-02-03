@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-class PersonPage extends StatefulWidget {
-  const PersonPage({super.key});
+class DashboardPage extends StatefulWidget {
+  const DashboardPage({super.key});
 
   @override
-  State<PersonPage> createState() => _PersonPageState();
+  State<DashboardPage> createState() => _DashboardPageState();
 }
 
-class _PersonPageState extends State<PersonPage> {
+class _DashboardPageState extends State<DashboardPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Person',
+          'Dashboard',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 25,
@@ -22,7 +22,7 @@ class _PersonPageState extends State<PersonPage> {
       ),
       body: const Center(
         child: Text(
-          'Person Page',
+          'Dashboard Page',
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
